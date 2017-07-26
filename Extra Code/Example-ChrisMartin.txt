@@ -1,0 +1,9 @@
+Example NumMthds Sp2012
+By: Chris Martin
+
+Number 1
+The First root is x = -0.99999963062957309
+The Second root is x = 0.5
+The Third root is x = 2.0000012928486273
+
+Number 2

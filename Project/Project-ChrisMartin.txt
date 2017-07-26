@@ -1,0 +1,15 @@
+Project NumMthds Sp2012
+Output for Project
+By: Chris Martin
+
+
+The accepted lifetimes (microseconds): 
+Muon Lifetime: 2.19703 +/- 2.1e-05
+Tau Lifetime: 2.906e-07 +/- 1e-09
+
+Number of Events Seeded: 100000
+Number of Events Detected: 63541
+
+The Fits found (microseconds): 
+Muon Lifetime: 2.21768 +/- 0.0612643
+Tau Lifetime: 2.9186e-07 +/- 3.33456e-09

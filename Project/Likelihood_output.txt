@@ -1,0 +1,24 @@
+visitor25:Project Chris$ ./Project
+Info in <TCanvas::Print>: png file Beam_Energy.png has been created
+
+****************************************
+Minimizer is Minuit / Migrad
+MinFCN                    =      49.3805
+Chi2                      =      99.7958
+NDf                       =           98
+Edm                       =  9.65802e-10
+NCalls                    =          137
+N_{#mu0}                  =      793.902   +/-   19.7931      	 (limited)
+#gamma#tau_{1/2#mu}       =      20.9892   +/-   0.540512    
+Info in <TCanvas::Print>: png file Muon_MC.png has been created
+
+****************************************
+Minimizer is Minuit / Migrad
+MinFCN                    =      6.20807
+Chi2                      =      13.4289
+NDf                       =           98
+Edm                       =   5.0964e-10
+NCalls                    =           85
+N_{#tau0}                 =      20267.9   +/-   157.178      	 (limited)
+#gamma#tau_{1/2#tau}      =   1.6426e-07   +/-   9.07555e-10 
+Info in <TCanvas::Print>: png file Tau_MC.png has been created

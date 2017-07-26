@@ -1,0 +1,23 @@
+Prob 3 NumMthds Sp2012
+By: Chris Martin
+
+For this run epsilon = 1e-100
+This is used to set cutoffs on number of evaluations.
+
+No. 1 (constant step h)
+
+Integral cut at sqrt(n*pi)/10 for singularities.
+If a piece between two cuts is big enough add it to integral.
+The number of pieces used in the integration was: 114
+Above a value of x=1.8924628453420163 The pieces of the integral were too small.
+The integral was evaluated over a range: t=0-1.8924628453420163
+The value of the integral is: 2.3193903407789072
+
+No. 2 (Gaussian)
+
+Integral cut at sqrt(n*pi)/10 for singularities.
+If a piece between two cuts is big enough add it to integral.
+The number of pieces used in the integration was: 115
+Above a value of x=1.9007449980205131 The pieces of the integral were too small.
+The integral was evaluated over a range: t=0-1.9007449980205131
+The value of the integral is: 1.9643853533538913

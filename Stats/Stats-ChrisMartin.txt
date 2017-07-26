@@ -1,0 +1,26 @@
+Stats NumMthds Sp2012
+By: Chris Martin
+
+Number 1
+
+Output contained in the following files: 
+Number1.pdf
+
+Number 2
+
+Output contained in the following files: 
+Number2.pdf
+
+Number 3
+Here are the fit Parameters.
+mu0 = 0.90006589724295483, % Error = 0.00044947460394957828
+Sig0 = 0.045188932063767853, % Error = 0.0078945376000825879
+Norm0 = 0.89818509824706361, % Error = 0.014628695806126506
+mu1 = 1.2099955291478337, % Error = 6.0027547649975831e-05
+Sig1 = 0.011029571144576727, % Error = 0.0035052802609776483
+Norm0 = 0.90113796263076229, % Error = 0.0067716998708390527
+
+Number 4
+The probability that a and b are from the same distribution is: 0.30793528915875534
+The probability that a and c are from the same distribution is: 0.30793528915875534
+The probability that c and b are from the same distribution is: 0.99832000519597441

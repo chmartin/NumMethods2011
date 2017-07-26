@@ -1,0 +1,60 @@
+Prob 3 NumMthds Sp2012
+By: Chris Martin
+
+No. 1
+Real axis on interval 0 to 1/2.
+Here is the value at 1/2 from hypgeo:
+3.9999999999999991
+Here are the coefficents of your approximation, (p_0,...,p_6,q_1,...,q_6):
+1.000000000000006
+0.75000000001144973
+0.3333333333331604
+0.083333333335484733
+-2.9838755771782743e-10
+2.1347631908724685e-10
+-8.4918143697376713e-10
+-1.2499999999886442
+-0.16666666668657762
+0.16666666664134
+0.16666666661270443
+0.083333333261984208
+2.0770320185992119e-10
+Here is the value at 1/2 from the Approximation:
+4.0000000000000009
+Here is the deviation returnted by the approximation:
+7.7715611723760958e-15
+Percent deviation: 
+-4.4408920985006271e-16
+
+No. 2
+Real axis on interval 0 to .9999+epsilon
+
+The iterations are not what was aked for in the problem... here we go UP until
+we reach a reasonable agreement between the real and approx values.
+The bottom up approach is necessitated by the error handeling precess in the
+Standard nr3 libraries. Here the maximum acceptable error between the approx and 
+~real is 1e-10 percent.
+Upper limit for this run is: 0.9999000348
+Here is the value at ~1 from hypgeo:
+100069636.3476041
+Here is the value at ~1 from the Approximation:
+100069636.35755451
+Percent deviation: 
+9.9434900166929013e-11
+
+Here are the coefficents of your approximation, (p_0,...,p_6,q_1,...,q_6):
+1.000000000101086
+0.74999999997676914
+0.33333333407238447
+0.083333346876747372
+-2.5089699563600465e-08
+3.3252247916976119e-08
+-1.2483210704711256e-08
+-1.2499999997539104
+-0.16666666583643233
+0.16666666725477719
+0.16666666743444089
+0.083333325481405388
+5.4197194166360693e-09
+Here is the deviation returnted by the approximation:
+0.0074525345116853714

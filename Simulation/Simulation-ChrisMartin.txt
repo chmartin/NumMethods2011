@@ -1,0 +1,9 @@
+Simulation NumMthds Sp2012
+By: Chris Martin
+
+Number 1
+Masses: 9, 9, 
+
+Output contained in the following files: 
+Mass_x_vs_t.pdf
+Number 2.1

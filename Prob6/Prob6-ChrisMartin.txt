@@ -1,0 +1,24 @@
+Problem 6 NumMthds Sp2012
+By: Chris Martin
+
+Number 1
+The minimum using Powell's method starting at x=1, y=-1 is: 
+Here are the coordinates of your minimum, (x,y):
+0.99999999999999978
+0.99999999999999956
+Here the value of the function:4.9303806576313238e-32
+
+Number 2
+Use Golden method for min, and Romberg for integration.
+The minimum is a p= 1.6521885215642782
+The value of the integral is: -0.84412503312693987
+
+Number 3
+Use Golden method for min.
+The minimum is a sigma/r= 0.89089872207172394
+The value of the potential is: -0.99999999999999933
+
+Number 4
+Minimized by brute force with a step size of 1.0000000000000001e-05
+The minimum is at (x,y)= (0.60000000000182041, 0.40000000000025926)
+The value of the function is: 0.51999999999823254

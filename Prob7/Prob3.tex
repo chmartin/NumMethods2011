@@ -1,0 +1,77 @@
+\documentclass[aps,prl,groupedaddress]{revtex4}
+\usepackage{graphicx}
+\usepackage{amssymb,amsmath,mathrsfs}
+
+\begin{document}
+
+\title{Numerical Methods HW 7 Number 3}
+
+\author{C. Martin}
+\affiliation{Johns Hopkins University, Department of Physics and Astronomy}
+
+\begin{abstract}
+Show that if $A = a_{ik}$ is Hermitian, then for every diagonal element $a_{ii}$, there exists an eigenvalue $\lambda(A)$ of $A$ such that
+
+\begin{equation}
+\label{eq:prob}
+\lvert \lambda (A) - a_{ii} \rvert \leq \sqrt{\sum_{k \neq i} \lvert a_{ij} \rvert^{2}}
+\end{equation}
+
+\end{abstract}
+
+\maketitle
+\section{Proof}
+Let $\lambda$ be an eigenvalue of $A$ with the eigenvector $v$. Then $v$ satisfies the eigenvalue equation
+
+\begin{equation}
+\label{eq:eigen}
+\sum_{j=1}^{N} a_{ij} v_{j} = \lambda v_{i}
+\end{equation}
+
+Suppose that $v_{k}$ is the element of $v$ having the largest absolute value. Then equation \ref{eq:eigen} for $i=k$ becomes
+
+\begin{equation}
+\label{eq:eigenk}
+\sum_{j=1}^{N} a_{kj} v_{j} = \lambda v_{k}
+\end{equation}
+
+
+Next, consider the equation $\lvert \lambda (A) - a_{kk} \rvert \lvert v_{k} \rvert$, using equation \ref{eq:eigenk} we can write
+
+\begin{equation}
+\label{eq:abs}
+\lvert \lambda (A) - a_{kk} \rvert \lvert v_{k} \rvert = \lvert \sum_{j=1}^{N} a_{kj} v_{j} - a_{kk}v_{k} \rvert = \lvert \sum_{k \neq i} a_{ij} v_{j}\rvert = \sqrt{\lvert \sum_{k \neq i} a_{ij} v_{j}\rvert^2} \leq \sqrt{\sum_{k \neq i} \lvert a_{ij} \rvert^2 \lvert v_{j} \rvert^2}
+\end{equation}
+
+Where the last inequality comes from the Pythagorean Theorem.  Since $v_{j} \leq v_{k}$ we can continue
+
+\begin{equation}
+\label{eq:absk}
+\lvert \lambda (A) - a_{kk} \rvert \lvert v_{k} \rvert  \leq \sqrt{\sum_{k \neq i} \lvert a_{ij} \rvert^2 \lvert v_{j} \rvert^2} \leq \lvert v_{k} \rvert \sqrt{\sum_{k \neq i} \lvert a_{ij} \rvert^2}
+\end{equation}
+
+Dividing the first and last expression in equation \ref{eq:absk} by $v_{k}$ we get the desired expression
+
+\begin{equation}
+\label{eq:anz}
+\lvert \lambda (A) - a_{kk} \rvert \leq \sqrt{\sum_{k \neq i} \lvert a_{ij} \rvert^2}
+\end{equation}
+
+Because $A$ is Hermitian there are $N$ linearly independent eigenvectors $v$, so equation \ref{eq:anz} can be written for each eigenvector $\lambda$ corresponding to that eigenvector $v$.
+
+\subsection{Note}
+This proof is a modification on the proof of Gerschgorin's Disk Theorem found in \cite[p.~297]{ref}.
+
+\begin{thebibliography}{1}
+
+\bibitem{ref}
+ Friedberg, S. H.,Insel, A. J., Spence, L. E., 
+ \emph{Linear Algebra}.
+  Pearson Education, Inc., New Jersey,
+  4th Edition,
+  2003
+
+
+
+\end{thebibliography}
+\end{document}

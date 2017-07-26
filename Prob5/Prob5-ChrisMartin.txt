@@ -1,0 +1,19 @@
+Problem 5 NumMthds Sp2012
+By: Chris Martin
+
+Number 1
+I have used the minimization method because the function is semipositive definite.
+The Minimum between .67 and .73 is x = 0.6999999763719631
+As a check, the function has a value of: 0
+The Minimum between .78 and .83 is x = 0.8000000810415907
+As a check, the function has a value of: 5.5511151231257827e-17
+
+Number 2
+The set has no roots when epsilon >= .034499.
+The roots when epsilon = .034498 (critical value) are: (y,x)
+0.036727636292506319, 3.6110785942550145
+0.036017627275982816, 3.6305996332487607
+The function continues to have 2 solutions while epsilon > 0.
+The root when epsilon = 0 (critical value) is: (y,x)
+0.49998992664541991, 1.0000201469121093
+The function continues to have 1 solution while epsilon < 0.

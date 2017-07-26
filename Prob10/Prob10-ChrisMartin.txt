@@ -1,0 +1,13 @@
+Problem 10 NumMthds Sp2012
+By: Chris Martin
+
+Number 1
+
+Output contained in the following files: 
+Number1_x_vs_t.pdf
+Number1_xprime_vs_x.pdf
+Number 2
+
+Output contained in the following files: 
+Number2_Psi_vs_s.pdf
+Number2_Psiprime_vs_Psi.pdf
